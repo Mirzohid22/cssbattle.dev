@@ -1,0 +1,59 @@
+<div>
+  <div a> </div>
+  <div b> </div>
+  <div d> </div>
+  <div e> </div>
+</div>
+<style>
+  body{
+    background:#F3AC3C;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}  
+div{
+    width: 200px;
+    height: 200px;
+    background: #1A4341; 
+    position:relative;
+  }
+  [a]{
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;  
+    position:absolute;
+    top:-100;
+    left:-100;
+    border-radius: 0 0 50% 0; 
+    
+  } 
+  [b]{
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;  
+    position:absolute;
+    top:100;
+    left:100;
+    border-radius:50% 0 0 0; 
+    
+  } 
+  [d]{
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;  
+    position:absolute;
+    top:-100;
+    left:100;
+    border-radius: 0 0 0 50%; 
+    
+  }  
+  [e]{
+    width: 200px;
+    height: 200px;
+    background: #F3AC3C;  
+    position:absolute;
+    top:100;
+    left:-100;
+    border-radius: 0 50% 0 0 ; 
+}    
+</style>
