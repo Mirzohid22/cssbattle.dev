@@ -1,2 +1,2 @@
 # cssbattle.dev
-cssbattle solution
+in this repository I write my cssbattle solutions
